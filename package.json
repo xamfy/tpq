@@ -1,12 +1,13 @@
 {
   "name": "tpq",
   "version": "1.0.0",
-  "description": "",
+  "description": "A task priority queue CLI to save your tasks and URLs to visit later.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "xamfy",
+  "license": "MIT",
+  "repository": "github:xamfy/tpq"
 }
