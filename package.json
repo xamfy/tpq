@@ -10,8 +10,11 @@
   "dependencies": {
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
+    "@oclif/plugin-autocomplete": "^0.2.0",
+    "@oclif/plugin-commands": "^1.3.0",
     "@oclif/plugin-help": "^3.2.0",
     "@oclif/plugin-not-found": "^1.2.4",
+    "@oclif/plugin-warn-if-update-available": "^1.7.0",
     "@types/js-priority-queue": "0.0.5",
     "js-priority-queue": "^0.1.5",
     "tslib": "^1.13.0"
@@ -52,7 +55,10 @@
     "bin": "tpq",
     "plugins": [
       "@oclif/plugin-help",
-	  "@oclif/plugin-not-found"
+      "@oclif/plugin-not-found",
+      "@oclif/plugin-autocomplete",
+      "@oclif/plugin-warn-if-update-available",
+	  "@oclif/plugin-commands"
     ]
   },
   "repository": "xamfy/tpq",

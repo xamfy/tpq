@@ -154,3 +154,17 @@ OPTIONS
 
 _See code: [src/commands/random.ts](https://github.com/xamfy/tpq/blob/v1.0.0/src/commands/random.ts)_
 <!-- commandsstop -->
+
+## `tpq autocomplete [SHELL]`
+
+Add tqp autocomplete in your shell(bash or zsh)
+
+```
+USAGE
+  $ tpq autocomplete bash         setup autocomplete
+  $ tpq autocomplete:script bash
+```
+
+## `tpq commands`
+
+Show all commands
