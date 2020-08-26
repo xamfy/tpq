@@ -29,8 +29,45 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`tpq add [FILE]`](#tpq-add-file)
+* [`tpq clear [FILE]`](#tpq-clear-file)
 * [`tpq hello [FILE]`](#tpq-hello-file)
 * [`tpq help [COMMAND]`](#tpq-help-command)
+* [`tpq list [FILE]`](#tpq-list-file)
+* [`tpq poll [FILE]`](#tpq-poll-file)
+* [`tpq random [FILE]`](#tpq-random-file)
+
+## `tpq add [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ tpq add [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/add.ts](https://github.com/xamfy/tpq/blob/v1.0.0/src/commands/add.ts)_
+
+## `tpq clear [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ tpq clear [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/clear.ts](https://github.com/xamfy/tpq/blob/v1.0.0/src/commands/clear.ts)_
 
 ## `tpq hello [FILE]`
 
@@ -68,4 +105,52 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src/commands/help.ts)_
+
+## `tpq list [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ tpq list [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/list.ts](https://github.com/xamfy/tpq/blob/v1.0.0/src/commands/list.ts)_
+
+## `tpq poll [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ tpq poll [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/poll.ts](https://github.com/xamfy/tpq/blob/v1.0.0/src/commands/poll.ts)_
+
+## `tpq random [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ tpq random [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/random.ts](https://github.com/xamfy/tpq/blob/v1.0.0/src/commands/random.ts)_
 <!-- commandsstop -->

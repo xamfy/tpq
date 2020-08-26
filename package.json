@@ -11,6 +11,9 @@
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.0",
+    "@oclif/plugin-not-found": "^1.2.4",
+    "@types/js-priority-queue": "0.0.5",
+    "js-priority-queue": "^0.1.5",
     "tslib": "^1.13.0"
   },
   "devDependencies": {
@@ -48,7 +51,8 @@
     "commands": "./lib/commands",
     "bin": "tpq",
     "plugins": [
-      "@oclif/plugin-help"
+      "@oclif/plugin-help",
+	  "@oclif/plugin-not-found"
     ]
   },
   "repository": "xamfy/tpq",
