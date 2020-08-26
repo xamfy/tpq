@@ -20,7 +20,7 @@ $ npm install -g tpq
 $ tpq COMMAND
 running command...
 $ tpq (-v|--version|version)
-tpq/1.0.0 linux-x64 node-v14.7.0
+tpq/1.0.1 linux-x64 node-v14.7.0
 $ tpq --help [COMMAND]
 USAGE
   $ tpq COMMAND
@@ -30,7 +30,9 @@ USAGE
 # Commands
 <!-- commands -->
 * [`tpq add [FILE]`](#tpq-add-file)
+* [`tpq autocomplete [SHELL]`](#tpq-autocomplete-shell)
 * [`tpq clear [FILE]`](#tpq-clear-file)
+* [`tpq commands`](#tpq-commands)
 * [`tpq hello [FILE]`](#tpq-hello-file)
 * [`tpq help [COMMAND]`](#tpq-help-command)
 * [`tpq list [FILE]`](#tpq-list-file)
@@ -51,7 +53,30 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/add.ts](https://github.com/xamfy/tpq/blob/v1.0.0/src/commands/add.ts)_
+_See code: [src/commands/add.ts](https://github.com/xamfy/tpq/blob/v1.0.1/src/commands/add.ts)_
+
+## `tpq autocomplete [SHELL]`
+
+display autocomplete installation instructions
+
+```
+USAGE
+  $ tpq autocomplete [SHELL]
+
+ARGUMENTS
+  SHELL  shell type
+
+OPTIONS
+  -r, --refresh-cache  Refresh cache (ignores displaying instructions)
+
+EXAMPLES
+  $ tpq autocomplete
+  $ tpq autocomplete bash
+  $ tpq autocomplete zsh
+  $ tpq autocomplete --refresh-cache
+```
+
+_See code: [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete/blob/v0.2.0/src/commands/autocomplete/index.ts)_
 
 ## `tpq clear [FILE]`
 
@@ -67,7 +92,31 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/clear.ts](https://github.com/xamfy/tpq/blob/v1.0.0/src/commands/clear.ts)_
+_See code: [src/commands/clear.ts](https://github.com/xamfy/tpq/blob/v1.0.1/src/commands/clear.ts)_
+
+## `tpq commands`
+
+list all the commands
+
+```
+USAGE
+  $ tpq commands
+
+OPTIONS
+  -h, --help              show CLI help
+  -j, --json              display unfiltered api data in json format
+  -x, --extended          show extra columns
+  --columns=columns       only show provided columns (comma-separated)
+  --csv                   output is csv format [alias: --output=csv]
+  --filter=filter         filter property by partial string matching, ex: name=foo
+  --hidden                show hidden commands
+  --no-header             hide table header from output
+  --no-truncate           do not truncate output to fit screen
+  --output=csv|json|yaml  output in a more machine friendly format
+  --sort=sort             property to sort by (prepend '-' for descending)
+```
+
+_See code: [@oclif/plugin-commands](https://github.com/oclif/plugin-commands/blob/v1.3.0/src/commands/commands.ts)_
 
 ## `tpq hello [FILE]`
 
@@ -87,7 +136,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/xamfy/tpq/blob/v1.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/xamfy/tpq/blob/v1.0.1/src/commands/hello.ts)_
 
 ## `tpq help [COMMAND]`
 
@@ -120,7 +169,7 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/list.ts](https://github.com/xamfy/tpq/blob/v1.0.0/src/commands/list.ts)_
+_See code: [src/commands/list.ts](https://github.com/xamfy/tpq/blob/v1.0.1/src/commands/list.ts)_
 
 ## `tpq poll [FILE]`
 
@@ -136,7 +185,7 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/poll.ts](https://github.com/xamfy/tpq/blob/v1.0.0/src/commands/poll.ts)_
+_See code: [src/commands/poll.ts](https://github.com/xamfy/tpq/blob/v1.0.1/src/commands/poll.ts)_
 
 ## `tpq random [FILE]`
 
@@ -152,7 +201,7 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/random.ts](https://github.com/xamfy/tpq/blob/v1.0.0/src/commands/random.ts)_
+_See code: [src/commands/random.ts](https://github.com/xamfy/tpq/blob/v1.0.1/src/commands/random.ts)_
 <!-- commandsstop -->
 
 ## `tpq autocomplete [SHELL]`

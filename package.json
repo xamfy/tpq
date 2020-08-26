@@ -1,7 +1,7 @@
 {
   "name": "tpq",
   "description": "A task priority queue CLI to save your tasks and URLs to visit later.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "xamfy",
   "bin": {
     "tpq": "./bin/run"
@@ -58,7 +58,7 @@
       "@oclif/plugin-not-found",
       "@oclif/plugin-autocomplete",
       "@oclif/plugin-warn-if-update-available",
-	  "@oclif/plugin-commands"
+      "@oclif/plugin-commands"
     ]
   },
   "repository": "xamfy/tpq",
