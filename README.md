@@ -217,3 +217,11 @@ USAGE
 ## `tpq commands`
 
 Show all commands
+
+# Development
+
+Setup dev environment using Docker
+
+```
+docker pull xamfy/tpq-dev:latest
+```
