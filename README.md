@@ -13,6 +13,13 @@ A task priority queue CLI to save your tasks and URLs to visit later.
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
+
+# Installation
+Install tpq globally using npm. Use sudo if you don't use node with nvm.
+```sh-session
+$ npm install -g tpq
+```
+
 # Usage
 <!-- usage -->
 ```sh-session
